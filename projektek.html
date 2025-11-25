@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mély- és Magasépítés | Szállítmányozás | Műszaki Mentés</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="projekt.css">
+         <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+    <div class="container">
+        <img src="img/lekologo.png" alt="LE-KO Kft. Lenti" class="logo-img">
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav id="mainNav">
+            <ul>
+                <!--<li><a href="#home">Főoldal</a></li>-->
+
+                <li><a href="#services">Szolgáltatások</a></li>
+                <li><a href="#projects">Projektek</a></li>
+                <li><a href="#about">Rólunk</a></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<section id="projects" class="section py-16 sm:py-24 bg-white">
+        <div class="container">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 text-center mb-12 border-b-4 border-blue-500 pb-3">
+                Kiemelt Projektjeink
+            </h1>
+            <p class="text-center text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
+                Mély- és magasépítés, szállítmányozás, valamint műszaki mentés terén megvalósított legfontosabb munkáink áttekintése.
+            </p>
+
+            <!-- Projekt Kártyák Reszponzív Gridben -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- 1. Projekt: Útépítés -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/1e40af/ffffff?text=Útépítés+Kép" alt="Útépítés és felújítás" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="text-2xl font-bold mb-2">Útépítés és felújítás</h3>
+                        <p class="text-sm font-light mb-4">Egy nagy forgalmú, 3 km-es főút teljeskörű burkolatcseréje és kiszélesítése a forgalom zavarása nélkül.</p>
+                        <a href="#" class="text-sm font-semibold hover:text-yellow-300 transition-colors">Bővebben <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 2. Projekt: Vízellátó rendszer -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/059669/ffffff?text=Vízellátás+Kép" alt="Vízellátó rendszer kiépítése" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="text-2xl font-bold mb-2">Vízellátó rendszer kiépítése</h3>
+                        <p class="text-sm font-light mb-4">Új, 1500 fős település ivóvíz-hálózatának teljes tervezése és kivitelezése, 8 km csővezetékkel.</p>
+                        <a href="#" class="text-sm font-semibold hover:text-yellow-300 transition-colors">Bővebben <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 3. Projekt: Társasház építése -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/9d174d/ffffff?text=Magasépítés+Kép" alt="Társasház építése" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="text-2xl font-bold mb-2">Modern Társasház</h3>
+                        <p class="text-sm font-light mb-4">Négyemeletes, 24 lakásos, 'A+' energetikai besorolású lakóépület kulcsrakész átadása.</p>
+                        <a href="#" class="text-sm font-semibold hover:text-yellow-300 transition-colors">Bővebben <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 4. Projekt: Műszaki mentés -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/f59e0b/ffffff?text=Mentés+Kép" alt="Nehézgép műszaki mentése" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="text-2xl font-bold mb-2">Nehézgép Mentés</h3>
+                        <p class="text-sm font-light mb-4">Különleges daruzási feladat egy 50 tonnás munkagép süllyedésének megoldására, szűk helyen.</p>
+                        <a href="#" class="text-sm font-semibold hover:text-yellow-300 transition-colors">Bővebben <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 5. Projekt: Logisztikai központ -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/6b21a8/ffffff?text=Logisztika+Kép" alt="Új logisztikai központ" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="text-2xl font-bold mb-2">Logisztikai Központ</h3>
+                        <p class="text-sm font-light mb-4">12.000 m²-es acélszerkezetű raktár és irodaépület komplex kivitelezése 6 hónap alatt.</p>
+                        <a href="#" class="text-sm font-semibold hover:text-yellow-300 transition-colors">Bővebben <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 6. Projekt: Hídfelújítás -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/16a34a/ffffff?text=Híd+Felújítás+Kép" alt="Régi híd szerkezeti felújítása" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="text-2xl font-bold mb-2">Híd Szerkezeti Felújítása</h3>
+                        <p class="text-sm font-light mb-4">Egy századfordulós híd teherbíró képességének növelése, műemlékvédelmi szempontok figyelembevételével.</p>
+                        <a href="#" class="text-sm font-semibold hover:text-yellow-300 transition-colors">Bővebben <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <!--
+            <div class="text-center mt-16">
+                <a href="#contact" class="inline-block px-8 py-3 bg-blue-600 text-white font-bold rounded-lg shadow-lg hover:bg-blue-700 transition-colors text-lg">
+                    További Referenciáink
+                </a>
+            </div>-->
+
+        </div>
+    </section>
+
+
+
+
+    <section id="contact" class="section contact bg-dark">
+        <div class="container fade-in-section">
+            <h2 class="slide-in-right">Vegye fel velünk a kapcsolatot</h2>
+<h3 class="contact-info fade-in delay-1">
+            <span class="contact-label">Könyvelés:</span> 
+            <a href="tel:+3692551382" class="phone-link">
+                <i class="fas fa-phone-alt"></i> 92/ 551 382
+            </a>
+            
+            <span class="separator">|</span>
+            
+            <span class="contact-label">Raktár:</span> 
+            <a href="tel:+3692551384" class="phone-link">
+                <i class="fas fa-phone-alt"></i> 92/ 551 384
+            </a>
+        </h3>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 LE-KO Kft. Lenti Mély- és Magasépítés - Minden jog fenntartva.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
