@@ -402,11 +402,12 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #FF4500;
 }
 
-/* ======================================= */
+
 /* ANIMÁCIÓS EFFEKTEK (Kezdő és Aktív állapot) */
-/* ======================================= */
+
 
 /* Általános animációs alaposztályok */
 .fade-in-section, .slide-in-left, .slide-in-right, .slide-in-up, .zoom-in {
@@ -431,9 +432,9 @@ nav ul li a:hover {
 }
 
 
-/* ======================================= */
+
 /* MÉDIA LEKÉRDEZÉSEK (Reszponzívitás) */
-/* ======================================= */
+
 @media (max-width: 992px) {
     /* Nagyobb tableteken */
     .hero h1 { font-size: 3.5em; }
